@@ -356,6 +356,7 @@ int CLI::run(int argc, char **argv)
 #endif
 
 	// Switch boost::filesystem to utf8.
+	// Some Comment
     try {
         boost::nowide::nowide_filesystem();
     } catch (const std::runtime_error& ex) {
